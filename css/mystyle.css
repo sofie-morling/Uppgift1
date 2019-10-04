@@ -1,0 +1,110 @@
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+html,
+body {
+    background: linear-gradient( #0aa5e2, lightblue);
+}
+h1 {
+    color: blue;
+    text-align: center;
+    font-size: 80px;
+    font-family: unset;
+}
+
+h2 {
+    color: darkblue;
+    text-align: center;
+    text-decoration: underline;
+    font-family: cursive;
+}
+footer {
+    text-align: center;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-style: outset;
+    
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+.dolfy {
+  width: 100%;
+  border-radius: 50%;
+  border-style: dotted;
+  border-color: darkblue;
+  border-width: 5px;
+}
+
+p {
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+max-width: 80ch;
+}
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+li {
+    display: inline;
+    background-color: lightskyblue;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 30px;
+  }
+  /* Container holding the image and the text */
+.end {
+    position: relative;
+  }
+  /* Bottom right text */
+  .text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: lightblue;
+    color: darkblue;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .dolly {
+      padding: 70px;
+      margin: 10px;
+      margin-left: 10px;
+  }
+  iframe {
+      margin-bottom: 80px;
+      margin-left: 30px;
+  }
+  .telling {
+      text-align: center;
+      color: blue;
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  @media only screen and (max-width: 542px) {
+      body {
+          background-color: palevioletred;
+        }
+        li {
+          font-size: 12px;
+        }
+        h1 {
+          font-size: 20px;
+          margin-top: 40px;
+        }
+  }
+ 
+  
+ 
+  
+    
