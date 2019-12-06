@@ -3,6 +3,10 @@ img {
   height: auto;
 }
 
+* {
+  box-sizing: border-box;
+}
+
 html,
 body {
     background: linear-gradient( #0aa5e2, lightblue);
@@ -20,7 +24,7 @@ h2 {
     text-decoration: underline;
     font-family: cursive;
 }
-footer {
+.footer {
     text-align: center;
     color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -43,7 +47,7 @@ footer {
 
 p {
 font-family: Verdana, Geneva, Tahoma, sans-serif;
-max-width: 80ch;
+max-width: 70ch;
 }
 ul{
   list-style-type: none;
@@ -81,17 +85,29 @@ li {
       padding: 70px;
       margin: 10px;
       margin-left: 10px;
+      float: right;
+      padding-top: 7px;
+      
+      
   }
-  iframe {
+  .iframe {
       margin-bottom: 80px;
-      margin-left: 30px;
+      margin-left: 60px;
+      width:400px;
+      height:300px;
+      border: none;
+      padding-bottom: 20px;
+      
+      
   }
   .telling {
       text-align: center;
       color: blue;
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   }
-  @media only screen and (max-width: 542px) {
+  
+
+  @media only screen and (max-width: 1013px) {
       body {
           background-color: palevioletred;
         }
@@ -101,6 +117,27 @@ li {
         h1 {
           font-size: 20px;
           margin-top: 40px;
+        }
+        .dolly {
+          display: block;
+          /* height: 200px; */
+          /* width: 200px; */
+
+          width: 100%;
+          height: 500px;
+          margin: 0;
+          padding: 60px;     
+        }
+        .iframe {
+          /* display: block; */
+          width: 100%;
+          height: 300px;
+          margin: 0;
+        }
+        .text-block {
+          width: 170px;
+          height: 95px;
+          font-size: 12px;
         }
   }
  
